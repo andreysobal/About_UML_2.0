@@ -39,7 +39,7 @@ body {
   padding-top: 95px;
   height: 0;
   overflow: hidden;
-  background: url(../img/images/title2.png) -30% 55% no-repeat;
+  background: transparent url(../img/images/title2.png) -30% 55% no-repeat;
   background-size: 90%;
   width: 200px;
   position: relative;
@@ -79,3 +79,20 @@ body {
   background-color: #FFFFFF;
   height: 600px;
   margin-left: 60px; }
+
+#extra1 {
+  height: 75px;
+  width: 100%;
+  background: transparent url(../img/images/black_lines1.jpeg) repeat-x;
+  opacity: 0.01;
+  z-index: 100;
+  position: absolute; }
+
+#extra4 {
+  width: 24px;
+  height: 125px;
+  position: absolute;
+  top: 50px;
+  left: 44px;
+  background: transparent url(../img/images/atu3.jpeg) no-repeat;
+  background-size: 65%; }
