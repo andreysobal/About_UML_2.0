@@ -77,9 +77,13 @@ main {
   margin-left: 25px; }
 
 .menu {
-  background-color: #B2AC9F;
+  background: linear-gradient(to top left, #C6C1B7, #B2AC9F, #B2AC9F, #B2AC9F, #B2AC9F, #B2AC9F, #B2AC9F);
   width: 260px;
-  padding-top: 30px; }
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end; }
 
 .aside_pointer {
   width: 65%;
@@ -99,7 +103,7 @@ main {
     margin-top: 0; }
 
 nav {
-  margin-bottom: 190px; }
+  margin-bottom: 100px; }
   nav li {
     margin: 0 50px 0 15px;
     padding: 7px 0;
@@ -158,6 +162,13 @@ nav {
   opacity: 0.01;
   z-index: 100;
   position: absolute; }
+
+#extra2 {
+  width: 140px;
+  height: 70px;
+  border-radius: 2px;
+  box-shadow: 0 0 25px 3px rgba(104, 104, 104, 0.4);
+  z-index: -1; }
 
 #extra4 {
   width: 24px;
