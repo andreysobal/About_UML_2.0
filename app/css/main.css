@@ -37,6 +37,13 @@ h2 {
   font-weight: normal; }
 
 @font-face {
+  font-family: "RobotoLight";
+  src: url("../fonts/robotolight/robotolight.eot");
+  src: url("../fonts/robotolight/robotolight.eot?#iefix") format("embedded-opentype"), url("../fonts/robotolight/robotolight.woff") format("woff"), url("../fonts/robotolight/robotolight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: light; }
+
+@font-face {
   font-family: "RobotoBold";
   src: url("../fonts/RobotoBold/RobotoBold.eot");
   src: url("../fonts/RobotoBold/RobotoBold.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoBold/RobotoBold.woff") format("woff"), url("../fonts/RobotoBold/RobotoBold.ttf") format("truetype");
@@ -44,16 +51,18 @@ h2 {
   font-weight: bold; }
 
 @font-face {
-  font-family: "PTSerif";
-  src: url("../fonts/pt_serif_italic/pt_serif-web-italic.ttf");
+  font-family: "for_quotes";
+  src: url("../fonts/ptserifitalic/ptserifitalic.eot");
+  src: url("../fonts/ptserifitalic/ptserifitalic.eot?#iefix") format("embedded-opentype"), url("../fonts/ptserifitalic/ptserifitalic.woff") format("woff"), url("../fonts/ptserifitalic/ptserifitalic.ttf") format("truetype");
   font-style: italic;
   font-weight: normal; }
 
 @font-face {
   font-family: "for_pointer";
-  src: url("../fonts/jura/jura-light.ttf");
+  src: url("../fonts/jura/jura-light.eot");
+  src: url("../fonts/jura/jura-light.eot?#iefix") format("embedded-opentype"), url("../fonts/jura/jura-light.woff") format("woff"), url("../fonts/jura/jura-light.ttf") format("truetype");
   font-style: normal;
-  font-weight: normal; }
+  font-weight: light; }
 
 .header {
   background-color: #FFFFFF;
@@ -122,11 +131,12 @@ nav {
   nav li {
     margin: 0 50px 0 15px;
     padding: 7px 0;
-    list-style-position: inside; }
+    list-style-position: inside;
+    font-family: Verdana, helvetica, sans-serif; }
   nav a {
     color: #47484A;
     font-weight: 600;
-    font-size: 80%;
+    font-size: 70%;
     text-align: left;
     text-decoration: none; }
     nav a:hover {
@@ -136,14 +146,15 @@ nav {
 .home {
   margin: 0 50px 60px 30px;
   color: #47484A;
+  font-family: verdana, helvetica, sans-serif;
   font-weight: 600;
-  font-size: 80%;
+  font-size: 70%;
   text-align: left;
   text-decoration: none; }
   .home a {
     color: #ECEAE6;
     margin: 0;
-    font-size: 90%; }
+    font-size: 100%; }
 
 .top_nav_item {
   list-style-image: url(../img/images/nav6.ico);
@@ -151,7 +162,8 @@ nav {
 
 .bottom_nav_item {
   list-style-type: none;
-  margin-left: 30px; }
+  margin-left: 20px;
+  padding: 5px; }
 
 .quotes {
   margin: 0 50px;
@@ -160,10 +172,11 @@ nav {
   background-size: 10%;
   padding-left: 25px;
   padding-top: 5px;
-  font-family: PTSerif, serif;
+  font-family: "for_quotes", serif;
   font-size: 85%;
   font-style: italic;
-  font-weight: bold;
+  font-weight: 600;
+  letter-spacing: .05em;
   text-indent: 20px; }
 
 .content {
@@ -177,9 +190,7 @@ nav {
     font-family: RobotoRegular, helvetica, sans-serif;
     letter-spacing: .01em;
     line-height: 1.8em;
-    word-spacing: .3em;
-    border-bottom: 1px solid #EAE8E3;
-    padding-bottom: 25px; }
+    word-spacing: .3em; }
   .content h3 {
     border-top: 1px solid #EAE8E3;
     box-sizing: border-box;
@@ -190,6 +201,9 @@ nav {
       border-top: none; }
   .content p {
     padding: 0 10px; }
+    .content p:last-child {
+      border-bottom: 1px solid #EAE8E3;
+      padding-bottom: 25px; }
   .content a {
     text-decoration: none;
     background: #E4FFCC;
@@ -258,3 +272,23 @@ figcaption {
   left: 44px;
   background: transparent url(../img/images/atu3.jpeg) no-repeat;
   background-size: 65%; }
+
+footer {
+  width: 600px;
+  margin-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  font-size: 75%;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: light;
+  font-family: RobotoLight, helvetica, sans-serif;
+  background-color: #FFFFFF; }
+  footer a {
+    color: #908E8E;
+    text-decoration: none;
+    font-style: italic;
+    border-bottom: .1em dotted; }
+    footer a:hover {
+      color: white;
+      background: #A4B93C; }
