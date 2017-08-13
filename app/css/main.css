@@ -6,13 +6,13 @@ body {
   background-color: #DFDBD3;
   color: #696969;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
   align-items: flex-start; }
 
 main {
-  margin-left: 60px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start; }
 
@@ -67,7 +67,6 @@ h2 {
 .header {
   background-color: #FFFFFF;
   width: 600px;
-  margin-left: 60px;
   padding-bottom: 35px;
   background: linear-gradient(to bottom, #E8E5DF, #FFFFFF); }
 
@@ -105,7 +104,9 @@ h2 {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-end; }
+  align-items: flex-end;
+  position: relative;
+  top: 130px; }
 
 .aside_pointer {
   width: 68%;
@@ -278,17 +279,15 @@ figcaption {
   border-radius: 20%; }
 
 #extra4 {
-  width: 24px;
-  height: 125px;
-  position: absolute;
+  width: 20px;
+  height: 150px;
+  position: relative;
   top: 50px;
-  left: 44px;
-  background: transparent url(../img/images/atu3.jpeg) no-repeat;
-  background-size: 65%; }
+  background: #BAB7B1 url(../img/images/atu3.jpeg) no-repeat;
+  background-size: 100%; }
 
 footer {
   width: 600px;
-  margin-left: 60px;
   padding-top: 10px;
   padding-bottom: 50px;
   font-size: 75%;
@@ -309,3 +308,23 @@ footer {
     footer a:hover {
       color: white;
       background: #A4B93C; }
+
+/*==========  Desktop First  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  /**/ }
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  /**/ }
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  /**/ }
+
+@media only screen and (max-width: 480px) {
+  /**/ }
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+  /**/ }
