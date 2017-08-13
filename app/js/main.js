@@ -34,4 +34,19 @@ $(document).ready(function() {
 		pageManager.followLink(evt);
 	});//end click
 
+	//to-top button
+	$(window).scroll(function () {
+		console.log('scroll', $(this).scrollTop());
+    if ($(this).scrollTop() > 200) {
+			$('#extra3').fadeIn();
+		} else {
+			$('#extra3').fadeOut();
+		}//end if
+  });//end scroll
+	
+  $('#extra3').click(function () {
+    $('body, html').animate({
+      scrollTop: 0
+    }, 500);
+  });//end click
 });//end ready
