@@ -136,7 +136,7 @@ nav {
   nav a {
     color: #47484A;
     font-weight: 600;
-    font-size: 70%;
+    font-size: 65%;
     text-align: left;
     text-decoration: none; }
     nav a:hover {
@@ -184,6 +184,7 @@ nav {
   background-color: #FFFFFF; }
   .content section {
     padding: 0 25px;
+    padding-bottom: 25px;
     text-align: left;
     font-size: 85%;
     font-family: RobotoRegular, helvetica, sans-serif;
@@ -198,11 +199,8 @@ nav {
     margin-top: 25px; }
     .content h3:first-child {
       border-top: none; }
-  .content p {
+  .content p, .content blockquote, .content ul {
     padding: 0 10px; }
-    .content p:last-child {
-      border-bottom: 1px solid #EAE8E3;
-      padding-bottom: 25px; }
   .content img {
     max-width: 95%; }
   .content a {
@@ -285,6 +283,10 @@ footer {
   font-weight: light;
   font-family: RobotoLight, helvetica, sans-serif;
   background-color: #FFFFFF; }
+  footer p:first-child {
+    margin: 0 25px;
+    padding-top: 10px;
+    border-top: 1px solid #EAE8E3; }
   footer a {
     color: #908E8E;
     text-decoration: none;
