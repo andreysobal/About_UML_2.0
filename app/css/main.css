@@ -181,8 +181,7 @@ nav {
 
 .content {
   width: 600px;
-  background-color: #FFFFFF;
-  max-width: 95%; }
+  background-color: #FFFFFF; }
   .content section {
     padding: 0 25px;
     text-align: left;
@@ -204,6 +203,8 @@ nav {
     .content p:last-child {
       border-bottom: 1px solid #EAE8E3;
       padding-bottom: 25px; }
+  .content img {
+    max-width: 95%; }
   .content a {
     text-decoration: none;
     background: #E4FFCC;
