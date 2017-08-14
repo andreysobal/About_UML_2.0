@@ -5,6 +5,6 @@
 /**/Thumbs.db
 /**/*.DS_Store
 /**/*.log
-gulpfile.js
-package.json
-yarn.lock
+/**/gulpfile.js
+/**/package.json
+/**/yarn.lock
