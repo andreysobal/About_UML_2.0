@@ -1,7 +1,10 @@
 /node_modules/
-/dist/
+/app/
 /.git/
 /**/*.psd
 /**/Thumbs.db
 /**/*.DS_Store
 /**/*.log
+gulpfile.js
+package.json
+yarn.lock
